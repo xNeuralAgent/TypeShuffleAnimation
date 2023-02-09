@@ -324,7 +324,7 @@ export class TypeShuffle {
                 }
             }
             else if ( cell.position === 0 ) {
-                cell.color = ['#3e775d', '#61dca3', '#61b3dc'][Math.floor(Math.random() * 3)]
+                cell.color = ['#e4ff00', '#8aff00', '#d0a8dc'][Math.floor(Math.random() * 3)]
                 cell.DOM.el.style.color = cell.color
                 cell.set(iteration < 9 ? 
                         ['*', '-', '\u0027', '\u0022'][Math.floor(Math.random() * 4)] : 
@@ -373,7 +373,7 @@ export class TypeShuffle {
             else {
                 cell.set(this.getRandomChar());
                 
-                cell.color = ['#2b4539', '#61dca3', '#61b3dc'][Math.floor(Math.random() * 3)]
+                cell.color = ['#e4ff00', '#8aff00', '#d0a8dc'][Math.floor(Math.random() * 3)]
                 cell.DOM.el.style.color = cell.color
             }
 

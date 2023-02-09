@@ -7,7 +7,7 @@ preloadFonts('biu0hfr').then(() => {
     const textElement = document.querySelector('.content');
     
     const ts = new TypeShuffle(textElement);
-    ts.trigger('fx1');
+    ts.trigger('fx6');
 
     [...document.querySelectorAll('.effects > button')].forEach(button => {
         button.addEventListener('click', () => {
